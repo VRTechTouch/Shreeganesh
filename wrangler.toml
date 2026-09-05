@@ -1,0 +1,11 @@
+name = "ganpati-mandal-portal"
+compatibility_date = "2024-09-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".next"
+
+# Cloudflare D1 Database Binding
+[[d1_databases]]
+binding = "DB"
+database_name = "ganpati_mandal_db"
+database_id = "d1-ganpati-mandal-prod"
+migrations_dir = "drizzle"
